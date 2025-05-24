@@ -45,7 +45,7 @@ df_merged_selected = df_merged[['timestamp','individuals_sea','individuals_land'
 
 # ## Run for every update
 
-chart_id='' #todo: add your own chart ID here
+chart_id='322154' #todo: add your own chart ID here
 
 latest_data_from_month = df_merged_selected.timestamp.max()
 
