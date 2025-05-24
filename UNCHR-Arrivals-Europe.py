@@ -3,7 +3,7 @@ import requests
 from datawrapper import Datawrapper
 from bs4 import BeautifulSoup
 
-dw = Datawrapper(access_token = "YOUR TOKEN HERE") #todo: add your own datawrapper API token
+dw = Datawrapper(access_token = "hSmCCY08FUfoRQV7Wpd2taJNvCyYX5rov12hWCcurm9u0GhAz3KRXLHkpKbHZzY0") #todo: add your own datawrapper API token
 
 json_land_sea = "https://data.unhcr.org/population/get/timeseries?widget_id=588956&sv_id=100&population_group=4797,4798,5634&frequency=month&fromDate=2016-01-01"
 json_sea = "https://data.unhcr.org/population/get/timeseries?widget_id=588957&sv_id=100&population_group=4797,5634&frequency=month&fromDate=2016-01-01"
